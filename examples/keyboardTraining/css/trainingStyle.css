@@ -1,0 +1,100 @@
+body{
+	text-align 		: center;
+	background 		: white;
+}
+
+#keyboardImg{
+	position 		: absolute;
+	z-index 		: 1;
+	top 			: 0px;
+	bottom 			: 0px;
+	left 			: 0px;
+	right 			: 0px;
+	opacity 		: 0.8; 
+	margin 			: auto;
+}
+
+#howto{
+	display 		: block;
+	background 		: white;
+	border 			: solid 1px #32b3ff;		
+	padding 		: 10px;
+	color 			: #32b3ff;
+	width 			: 250px;
+	border-radius 	: 10px;
+	
+	font-family 	: courier;
+	cursor 			: pointer;
+	height 			: 20px;
+	position 		: absolute;
+	z-index 		: 10;
+	top 			: 0px;
+	bottom 			: 0px;
+	left 			: 0px;
+	right 			: 0px;
+	margin 			: auto;
+}
+
+#tutorial{
+	display 		: none;
+	width 			: 100%;
+	position 		: absolute;
+	z-index 		: 1;
+	top 			: 0px;
+	bottom 			: 0px;
+	left 			: 0px;
+	right 			: 0px;
+	margin 			: auto;
+}
+
+#l, #r{
+	width 			: 50%;
+	float 			: left;
+	text-align 		: center;
+}
+
+#l img, #r img{
+	width 			: 75%;
+}
+
+.blue{
+	color 			: #019ae8;
+	font-weight 	:bold;
+}
+
+.orange{
+	color 			: #ffaa00;
+	font-weight 	:bold;
+}
+
+#prompt{
+	font-size 		: 16pt;
+	font-family 	: courier;
+}
+
+#interstitialScreen{
+	background 		: rgba(255,255,255,.5);
+	position 		: fixed;
+	width 			: 100vw;
+	height 			: 100vh;
+	z-index 		: 20;
+	top 			: 0px;
+	left 			: 0px;
+	display 		: none;
+}
+
+#fixation{
+	text-align 		: center;
+	width 			: 64px;
+	height 			: 64px;
+	position 		: absolute;
+	top 			: 35%;
+	left 			: 0px;
+	right 			: 0px;
+	
+	margin 			: auto;
+}
+
+#fixation img{
+	width 			: 50%;
+}
